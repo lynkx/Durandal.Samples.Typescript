@@ -21,6 +21,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="App\eventAggregator\index.html" />
+    <Content Include="App\eventAggregator\publisher.html" />
+    <Content Include="App\eventAggregator\subscriber.html" />
     <Content Include="App\hello\index.html" />
     <Content Include="App\main.js" />
     <Content Include="App\shell.html" />
@@ -81,6 +84,9 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="App\eventAggregator\index.ts" />
+    <TypeScriptCompile Include="App\eventAggregator\publisher.ts" />
+    <TypeScriptCompile Include="App\eventAggregator\subscriber.ts" />
     <TypeScriptCompile Include="App\hello\index.ts" />
     <TypeScriptCompile Include="App\shell.ts" />
     <TypeScriptCompile Include="Scripts\typings\bootstrap\bootstrap.d.ts" />
@@ -98,6 +104,7 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>

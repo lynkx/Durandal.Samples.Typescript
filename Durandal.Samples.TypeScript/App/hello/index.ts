@@ -6,7 +6,7 @@ var name = ko.observable();
 var canSayHello = () => {
     return name() ? true : false;
 }
-var singleton = {
+var instance = {
     displayName: 'What is your name?',
     name: name,
     sayHello: () => {
@@ -34,4 +34,4 @@ var singleton = {
     }
 
 }
- export = singleton
+ export = instance
