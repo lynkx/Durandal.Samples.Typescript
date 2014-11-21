@@ -16,6 +16,6 @@ var instance = {
         this.subscription(null);
     }
 
-}
+} 
 
 export = instance
