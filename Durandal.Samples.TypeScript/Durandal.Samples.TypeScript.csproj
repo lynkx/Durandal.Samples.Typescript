@@ -26,6 +26,8 @@
     <Content Include="App\eventAggregator\subscriber.html" />
     <Content Include="App\hello\index.html" />
     <Content Include="App\main.js" />
+    <Content Include="App\modal\customModal.html" />
+    <Content Include="App\modal\index.html" />
     <Content Include="App\shell.html" />
     <Content Include="App\viewComposition\index.html" />
     <Content Include="App\views\childView1.html" />
@@ -91,6 +93,8 @@
     <TypeScriptCompile Include="App\eventAggregator\publisher.ts" />
     <TypeScriptCompile Include="App\eventAggregator\subscriber.ts" />
     <TypeScriptCompile Include="App\hello\index.ts" />
+    <TypeScriptCompile Include="App\modal\customModal.ts" />
+    <TypeScriptCompile Include="App\modal\index.ts" />
     <TypeScriptCompile Include="App\shell.ts" />
     <TypeScriptCompile Include="App\viewComposition\index.ts" />
     <TypeScriptCompile Include="App\viewComposition\inlineModule.ts" />
