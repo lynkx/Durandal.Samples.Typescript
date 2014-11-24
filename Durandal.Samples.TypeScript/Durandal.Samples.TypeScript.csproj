@@ -25,6 +25,10 @@
     <Content Include="App\eventAggregator\publisher.html" />
     <Content Include="App\eventAggregator\subscriber.html" />
     <Content Include="App\hello\index.html" />
+    <Content Include="App\keyedMasterDetail\first.html" />
+    <Content Include="App\keyedMasterDetail\master.html" />
+    <Content Include="App\keyedMasterDetail\second.html" />
+    <Content Include="App\keyedMasterDetail\third.html" />
     <Content Include="App\main.js" />
     <Content Include="App\masterDetail\index.html" />
     <Content Include="App\masterDetail\project.html" />
@@ -101,6 +105,11 @@
     <TypeScriptCompile Include="App\eventAggregator\publisher.ts" />
     <TypeScriptCompile Include="App\eventAggregator\subscriber.ts" />
     <TypeScriptCompile Include="App\hello\index.ts" />
+    <TypeScriptCompile Include="App\keyedMasterDetail\first.ts" />
+    <TypeScriptCompile Include="App\keyedMasterDetail\master.ts" />
+    <TypeScriptCompile Include="App\keyedMasterDetail\second.ts" />
+    <TypeScriptCompile Include="App\keyedMasterDetail\ITabContent.ts" />
+    <TypeScriptCompile Include="App\keyedMasterDetail\third.ts" />
     <TypeScriptCompile Include="App\masterDetail\index.ts" />
     <TypeScriptCompile Include="App\masterDetail\project.ts" />
     <TypeScriptCompile Include="App\modal\customModal.ts" />
