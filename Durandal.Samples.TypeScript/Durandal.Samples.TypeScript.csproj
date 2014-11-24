@@ -29,6 +29,8 @@
     <Content Include="App\keyedMasterDetail\master.html" />
     <Content Include="App\keyedMasterDetail\second.html" />
     <Content Include="App\keyedMasterDetail\third.html" />
+    <Content Include="App\ko\helloWorld\index.html" />
+    <Content Include="App\ko\index.html" />
     <Content Include="App\main.js" />
     <Content Include="App\masterDetail\index.html" />
     <Content Include="App\masterDetail\project.html" />
@@ -100,6 +102,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
     <TypeScriptCompile Include="App\base\IViewModel.ts" />
+    <TypeScriptCompile Include="App\base\IRoute.ts" />
     <TypeScriptCompile Include="App\base\ViewModel.ts" />
     <TypeScriptCompile Include="App\eventAggregator\index.ts" />
     <TypeScriptCompile Include="App\eventAggregator\publisher.ts" />
@@ -110,6 +113,8 @@
     <TypeScriptCompile Include="App\keyedMasterDetail\second.ts" />
     <TypeScriptCompile Include="App\keyedMasterDetail\ITabContent.ts" />
     <TypeScriptCompile Include="App\keyedMasterDetail\third.ts" />
+    <TypeScriptCompile Include="App\ko\helloWorld\index.ts" />
+    <TypeScriptCompile Include="App\ko\index.ts" />
     <TypeScriptCompile Include="App\masterDetail\index.ts" />
     <TypeScriptCompile Include="App\masterDetail\project.ts" />
     <TypeScriptCompile Include="App\modal\customModal.ts" />

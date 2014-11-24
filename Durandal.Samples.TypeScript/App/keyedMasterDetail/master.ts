@@ -3,7 +3,7 @@ import router = require('plugins/router');
 import ko = require('knockout');
 import system = require('durandal/system');
 
-var masterVm = ko.observable();
+var masterVm = ko.observable<ITabContent>();
 
 var childRouter = router
     .createChildRouter()
