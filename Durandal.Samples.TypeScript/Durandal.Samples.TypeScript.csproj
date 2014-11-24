@@ -34,6 +34,9 @@
     <Content Include="App\viewComposition\index.html" />
     <Content Include="App\views\childView1.html" />
     <Content Include="App\views\childView2.html" />
+    <Content Include="App\widgets\expander\view.html" />
+    <Content Include="App\widgets\index.html" />
+    <Content Include="App\widgets\project.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -77,6 +80,7 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="App\widgets\Readme.md" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
@@ -92,6 +96,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
     <TypeScriptCompile Include="App\base\IViewModel.ts" />
+    <TypeScriptCompile Include="App\base\ViewModel.ts" />
     <TypeScriptCompile Include="App\eventAggregator\index.ts" />
     <TypeScriptCompile Include="App\eventAggregator\publisher.ts" />
     <TypeScriptCompile Include="App\eventAggregator\subscriber.ts" />
@@ -103,6 +108,10 @@
     <TypeScriptCompile Include="App\shell.ts" />
     <TypeScriptCompile Include="App\viewComposition\index.ts" />
     <TypeScriptCompile Include="App\viewComposition\inlineModule.ts" />
+    <TypeScriptCompile Include="App\widgets\expander\viewmodel.ts" />
+    <TypeScriptCompile Include="App\widgets\index.ts" />
+    <TypeScriptCompile Include="App\widgets\IProjectViewModel.ts" />
+    <TypeScriptCompile Include="App\widgets\project.ts" />
     <TypeScriptCompile Include="Scripts\typings\bootstrap\bootstrap.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\durandal\durandal.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
