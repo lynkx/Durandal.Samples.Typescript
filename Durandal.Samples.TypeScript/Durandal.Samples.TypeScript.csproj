@@ -32,6 +32,7 @@
     <Content Include="App\ko\clickCounter\index.html" />
     <Content Include="App\ko\helloWorld\index.html" />
     <Content Include="App\ko\index.html" />
+    <Content Include="App\ko\simpleList\index.html" />
     <Content Include="App\main.js" />
     <Content Include="App\masterDetail\index.html" />
     <Content Include="App\masterDetail\project.html" />
@@ -117,6 +118,7 @@
     <TypeScriptCompile Include="App\ko\clickCounter\index.ts" />
     <TypeScriptCompile Include="App\ko\helloWorld\index.ts" />
     <TypeScriptCompile Include="App\ko\index.ts" />
+    <TypeScriptCompile Include="App\ko\simpleList\index.ts" />
     <TypeScriptCompile Include="App\masterDetail\index.ts" />
     <TypeScriptCompile Include="App\masterDetail\project.ts" />
     <TypeScriptCompile Include="App\modal\customModal.ts" />
