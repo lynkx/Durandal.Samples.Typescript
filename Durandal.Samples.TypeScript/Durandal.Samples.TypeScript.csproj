@@ -26,6 +26,8 @@
     <Content Include="App\eventAggregator\subscriber.html" />
     <Content Include="App\hello\index.html" />
     <Content Include="App\main.js" />
+    <Content Include="App\masterDetail\index.html" />
+    <Content Include="App\masterDetail\project.html" />
     <Content Include="App\modal\customModal.html" />
     <Content Include="App\modal\index.html" />
     <Content Include="App\shell.html" />
@@ -89,10 +91,13 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="App\base\IViewModel.ts" />
     <TypeScriptCompile Include="App\eventAggregator\index.ts" />
     <TypeScriptCompile Include="App\eventAggregator\publisher.ts" />
     <TypeScriptCompile Include="App\eventAggregator\subscriber.ts" />
     <TypeScriptCompile Include="App\hello\index.ts" />
+    <TypeScriptCompile Include="App\masterDetail\index.ts" />
+    <TypeScriptCompile Include="App\masterDetail\project.ts" />
     <TypeScriptCompile Include="App\modal\customModal.ts" />
     <TypeScriptCompile Include="App\modal\index.ts" />
     <TypeScriptCompile Include="App\shell.ts" />
