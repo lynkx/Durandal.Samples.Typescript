@@ -10,7 +10,7 @@
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
-    <TypeScriptToolsVersion>1.0</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>1.5</TypeScriptToolsVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -20,7 +20,6 @@
     <RestorePackages>true</RestorePackages>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="app.css" />
     <Content Include="App\eventAggregator\index.html" />
     <Content Include="App\eventAggregator\publisher.html" />
     <Content Include="App\eventAggregator\subscriber.html" />
@@ -103,7 +102,6 @@
     <Content Include="Scripts\jquery-2.1.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app.ts" />
     <TypeScriptCompile Include="App\base\IViewModel.ts" />
     <TypeScriptCompile Include="App\base\IRoute.ts" />
     <TypeScriptCompile Include="App\base\ViewModel.ts" />

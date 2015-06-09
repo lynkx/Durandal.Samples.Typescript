@@ -1,1 +1,1 @@
-﻿//# sourceMappingURL=IProjectViewModel.js.map
+//# sourceMappingURL=IProjectViewModel.js.map

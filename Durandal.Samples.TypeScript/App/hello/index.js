@@ -1,4 +1,4 @@
-﻿define(["require", "exports", 'durandal/app', 'durandal/system', 'knockout'], function(require, exports, app, system, ko) {
+define(["require", "exports", 'durandal/app', 'durandal/system', 'knockout'], function (require, exports, app, system, ko) {
     var name = ko.observable();
     var canSayHello = function () {
         return name() ? true : false;
@@ -15,7 +15,7 @@
         },
         binding: function () {
             system.log('Lifecycle : binding : hello');
-            return { cacheViews: false };
+            return { cacheViews: false }; //cancels view caching for this module, allowing the triggering of the detached callback
         },
         bindingComplete: function () {
             system.log('Lifecycle : bindingComplete : hello');
@@ -30,7 +30,6 @@
             system.log('Lifecycle : detached : hello');
         }
     };
-    
     return instance;
 });
 //# sourceMappingURL=index.js.map

@@ -1,5 +1,6 @@
-﻿define(["require", "exports", 'plugins/router', 'knockout'], function(require, exports, router, ko) {
-    var childRouter = router.createChildRouter().makeRelative({
+define(["require", "exports", 'plugins/router', 'knockout'], function (require, exports, router, ko) {
+    var childRouter = router.createChildRouter()
+        .makeRelative({
         moduleId: 'ko',
         fromParent: true
     }).map([
@@ -15,22 +16,11 @@
         { route: 'gridEditor', moduleId: 'gridEditor/index', title: 'Grid Editor', type: 'detailed', nav: true },
         { route: 'shoppingCart', moduleId: 'shoppingCart/index', title: 'Shopping Cart', type: 'detailed', nav: true }
     ]).buildNavigationModel();
-
     var vm = {
         router: childRouter,
-        introSamples: ko.computed(function () {
-            return ko.utils.arrayFilter(childRouter.navigationModel(), function (route) {
-                return route.type == 'intro';
-            });
-        }),
-        detailedSamples: ko.computed(function () {
-            return ko.utils.arrayFilter(childRouter.navigationModel(), function (route) {
-                return route.type == 'detailed';
-            });
-        })
+        introSamples: ko.computed(function () { return ko.utils.arrayFilter(childRouter.navigationModel(), function (route) { return route.type == 'intro'; }); }),
+        detailedSamples: ko.computed(function () { return ko.utils.arrayFilter(childRouter.navigationModel(), function (route) { return route.type == 'detailed'; }); })
     };
-
-    
     return vm;
 });
 //# sourceMappingURL=index.js.map

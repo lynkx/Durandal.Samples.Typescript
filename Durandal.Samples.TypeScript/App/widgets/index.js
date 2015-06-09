@@ -1,4 +1,4 @@
-﻿define(["require", "exports", './project', 'knockout'], function(require, exports, Project, ko) {
+define(["require", "exports", './project', 'knockout'], function (require, exports, Project, ko) {
     var instance = {
         projects: ko.observableArray([
             new Project('Durandal', 'A cross-device, cross-platform application framework written in JavaScript, Durandal is a very small amount of code built on top of three existing and established Javascript libraries: jQuery, Knockout and RequireJS.'),
@@ -9,8 +9,6 @@
             this.projects.push(new Project('New Project', 'A test project.'));
         }
     };
-
-    
     return instance;
 });
 //# sourceMappingURL=index.js.map

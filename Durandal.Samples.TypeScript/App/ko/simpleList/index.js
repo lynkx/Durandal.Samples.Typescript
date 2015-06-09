@@ -1,7 +1,6 @@
-﻿define(["require", "exports", 'knockout'], function(require, exports, ko) {
+define(["require", "exports", 'knockout'], function (require, exports, ko) {
     var items = ko.observableArray(["Alpha", "Beta", "Gamma"]);
     var itemToAdd = ko.observable("");
-
     var vm = {
         items: items,
         itemToAdd: itemToAdd,
@@ -13,8 +12,6 @@
             ;
         }
     };
-
-    
     return vm;
 });
 //# sourceMappingURL=index.js.map
