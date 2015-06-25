@@ -1,8 +1,9 @@
-﻿ import app = require('durandal/app')
+﻿/// <reference path="../../scripts/typings/knockout/knockout.d.ts" />
+ import app = require('durandal/app')
  import system = require('durandal/system')
  import ko = require('knockout')
 
-var name = ko.observable();
+ var name : KnockoutObservable<string> = ko.observable("");
 var canSayHello = () => {
     return name() ? true : false;
 }

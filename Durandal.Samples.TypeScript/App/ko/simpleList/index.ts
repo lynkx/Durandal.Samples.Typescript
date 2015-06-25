@@ -11,7 +11,7 @@ var vm = {
         if (itemToAdd() != '') {
             items.push(itemToAdd()); // Adds the item. Writing to the "items" observableArray causes any associated UI to update.
             itemToAdd(''); // Clears the text box, because it's bound to the "itemToAdd" observable
-        };
+        }
     }
 
 };
