@@ -28,6 +28,7 @@
     <Content Include="App\keyedMasterDetail\master.html" />
     <Content Include="App\keyedMasterDetail\second.html" />
     <Content Include="App\keyedMasterDetail\third.html" />
+    <Content Include="App\ko\animatedTrans\index.html" />
     <Content Include="App\ko\betterList\index.html" />
     <Content Include="App\ko\clickCounter\index.html" />
     <Content Include="App\ko\helloWorld\index.html" />
@@ -114,6 +115,7 @@
     <TypeScriptCompile Include="App\keyedMasterDetail\second.ts" />
     <TypeScriptCompile Include="App\keyedMasterDetail\ITabContent.ts" />
     <TypeScriptCompile Include="App\keyedMasterDetail\third.ts" />
+    <TypeScriptCompile Include="App\ko\animatedTrans\index.ts" />
     <TypeScriptCompile Include="App\ko\betterList\index.ts" />
     <TypeScriptCompile Include="App\ko\clickCounter\index.ts" />
     <TypeScriptCompile Include="App\ko\helloWorld\index.ts" />
